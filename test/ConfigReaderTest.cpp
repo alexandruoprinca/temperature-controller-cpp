@@ -19,6 +19,13 @@ TEST(ConfigReaderTest, FailToReadPartialData) {
     EXPECT_FALSE(result);
 }
 
+TEST(ConfigReaderTest, InvalidData) {
+    const std::string config_path{"../test/config/invalid_data.txt"};
+    ConfigReader config_reader{config_path};
+    const auto result = config_reader.readConfig();
+    EXPECT_FALSE(result);
+}
+
 TEST(ConfigReaderTest, FailToReadNoData) {
     const std::string config_path{"../test/config/no_data.txt"};
     ConfigReader config_reader{config_path};

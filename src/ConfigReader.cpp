@@ -26,6 +26,10 @@ std::optional<Config> ConfigReader::readConfig()
     {
         return {};
     }
+    if(min_temperature > max_temperature) {
+        return {};
+    }
+    
     result.max_temperature = max_temperature;
     result.min_temperature = min_temperature;
     return result;
