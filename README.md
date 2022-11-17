@@ -10,7 +10,8 @@ Build and Run project:
 
 Mentions:
 1.Currently the minimum and maximum temperatures are read from the config.txt file, meaning that someone can change the desired temperature interval
-by changing the data in the config.txt (min is first val, max is second). The app will read the config every few seconds and it will try to adjust the temperature accordingly.
+by changing the data in the config.txt (min is first val, max is second). 
+The app will read the config every few seconds and it will try to adjust the temperature accordingly.
 
 2.The "TemperatureSensor" component reads the data from the TemperatureValueProvider class which is created to simulate real changes in temperature. 
 The initial value is random between -35 and 35.
