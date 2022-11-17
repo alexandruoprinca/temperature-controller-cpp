@@ -4,7 +4,8 @@
 
 namespace
 {
-    //dummy function used to get 
+    // dummy function used to generate a double value within some bonds to serve as the initial temperature
+    // which would usually be fetched from the sensor
     float generateRandomValue()
     {
         constexpr float lower_bound = -35;
