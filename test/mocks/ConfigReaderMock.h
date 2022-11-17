@@ -2,7 +2,7 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 
-#include "../src/IConfigReader.h"
+#include "../../include/IConfigReader.h"
 
 class ConfigReaderMock : public IConfigReader {
 public:

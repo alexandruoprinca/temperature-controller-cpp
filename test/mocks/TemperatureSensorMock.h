@@ -2,7 +2,7 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 
-#include "../src/ITemperatureSensor.h"
+#include "../../include/ITemperatureSensor.h"
 
 class TemperatureSensorMock : public ITemperatureSensor {
 public:

@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../src/ConfigReader.h"
+#include "../include/ConfigReader.h"
 
 TEST(ConfigReaderTest, DataIsReadSuccessfullyFromFile) {
 
